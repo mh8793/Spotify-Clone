@@ -1,0 +1,45 @@
+.player-playlist-container{
+    padding: 20px;
+    /* height: 100%;
+    overflow: scroll; */
+}
+.player-playlist-header{
+    margin-top: 30px;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+.playlist-image-card{
+    width: 250px;
+    height: 250px;
+    border-radius: 10px;
+    background-image: url('https://d2rd7etdn93tqb.cloudfront.net/wp-content/uploads/2022/03/spotify-playlist-cover-80s-pink-jukebox-032322.jpg');
+    background-size: cover;
+}
+.playlist-body{
+    color: #ededed;
+}
+.playlist-body h1{
+    font-size: 2.5rem;
+}
+.playlist-list{
+    color: #dcdcdc;
+    margin-top: 30px;
+    display: flex;
+}
+.playlist-list .playlist-list-id{
+    width: 10%;
+}
+.playlist-list .playlist-list-title{
+    width: 40%;
+}
+.playlist-list .playlist-list-album{
+    width: 40%;
+}
+.playlist-list .playlist-list-duration{
+    width: 10%;
+}
+.playlist-list-container{
+    height: 40vh;
+    overflow-y: scroll;
+}
